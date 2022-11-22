@@ -1,0 +1,32 @@
+---
+title: "About Ben Wards"
+image: profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: twitter
+      text: wardsbd
+      href: https://twitter.com/WardsBen
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ben-wards-014a8282
+    - icon: github
+      text: benwardswards
+      href: https://github.com/benwardswards
+    - icon: mastodon
+      text: Mastodon
+      href: https://techhub.social/@bdwards
+
+---
+
+Data Science, Algorithms, linux, python, and web development
+
+I completed a masters at the university of Alberta and undergrad in math at the University of Calgary.  I then partially completed a Phd (ABD) in Geophysics.  Even though I'll never complete my phd I learn't a lot, writing, presentations, matlab, signal processing, and simulations of acoustic and anisotropic wave equations. I'm now on the road to learning python and data science.r
+
+## Education
+
+University of Alberta, Edmonton, AB
+MSc in Mathematics September 2006
+
+University of Calgary, Calgary, AB
+BSc Honours in Applied and Pure Mathematics
