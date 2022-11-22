@@ -16,5 +16,6 @@ website:
         href: https://techhub.social/@bdwards
 format:
   html:
-    theme: cosmo
+    theme: theme.scss
     css: styles.css
+site-url: https://github.com/benwardswards
