@@ -1,0 +1,92 @@
+---
+title: "Keyboard Shortcuts and Linux Commands for Git and Coding"
+author: "Ben Wards"
+date: "2022-11-22"
+categories: [Linux, Vscode,  terminal]
+image: linux.jpeg
+jupyter: python3
+format: 
+    html:
+        toc: true
+        toc-depth: 2
+---
+
+## keyboard Short Cuts and Linux commands for Coding
+
+A summary of linux comands that I use for coding, git, and bloging.
+
+## Keyboard Shortcuts for Terminal
+
+
+|  shortcut |description   |
+|---|---|
+| Ctrl + a  | will take you to the beginning of a line  |
+| Ctrl + e   | goto end of line  |
+| Ctrl + w  |  delete one word backwards |
+| Ctrl + k | remove cursor to beginning of line|
+| Ctrl + u | remove cursor to end of line|
+| Ctrl + y|  undone |
+| Ctrl + Shift + c| copy to terminal |
+| Ctrl + Shift + v| paste to terminal |
+| Ctrl + F| move one forward|
+
+## Default keyboard shortcuts for vscode on Linux
+
+| Shortcut |description   |
+|---    |---      |
+|Ctrl+C | copy |
+|Ctrl+v | paste |
+|Ctrl+x | cut line|
+|Alt+⬆  | move line up|
+|Alt+⬇  | move line down|
+|Ctrl+] | Indent line |
+|Ctrl+[ | Outdent line |
+|Alt+Z  | Toggle word wrap|
+|Ctrl+F | Find |
+|Ctrl+H | Replace |
+
+## SSH Keys and Passphrases with Github
+
+- Generate a private public key pair
+  - The public key in ~/.ssh is .pub file
+- Get that key to run with ssh
+- Upload the public key to github
+- Set the remote with ssh
+
+```zsh
+ssh-add ~/.ssh/id_ed25519
+ssh-keygen -t ed25519 -C "wardsbd@gmail.com"
+eval "$(ssh-agent -s)"
+```
+
+The command line authenticates with ssh so you have to set the remote with ssh not https. Go to your github page like you were going to find the clone address and choose ssh to down load the correct link.
+
+```zsh
+git remote set-url origin git@github.com:benwardswards/algoverse.github.io.git
+```
+
+Checking your credentials:
+
+```zsh
+ssh -T git@github.com
+```
+
+[Github docs for authentication](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+## Quarto Websites, blogs and Documents
+
+```zsh
+quarto preview <folder-blogname>
+```
+## 🚀 About Me
+
+Algorithms, machine learning, and learning from data.
+
+challenges did you face and how did you overcome them?
+
+
+## Tech Stack
+
+- markdown
+- jupyter
+- python

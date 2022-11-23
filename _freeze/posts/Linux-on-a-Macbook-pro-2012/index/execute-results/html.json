@@ -1,0 +1,11 @@
+{
+  "hash": "5ed71372d7ff99415e48b601c3202981",
+  "result": {
+    "markdown": "---\ntitle: Linux on Macbook Pro 2012\nauthor: Ben Wards\ndate: '2022-11-20'\ncategories:\n  - Linux\n  - mac\n  - ubuntu\nimage: ubuntu.png\ntoc: true\ntoc-depth: 2\n---\n\n## Linux on a 2012 Macbook Pro\n\nI have two former windows machine that are running ubuntu just great.  But the mac runs a little hot and the battery time is reduced.\n\nComputer: 2012 mid 15inch MacBook pro\n\n## What was wrong with MAC OS?\n\n- homebrew broke\n- hard to update\n- no support from mac\n- hard to build anything from source.\n- love apt, apt-get, installer, more familar with command line tools on linux.\n\n## Installation\n\nI tried to install many different flavors, making probably 10 different bootable usb keys.  The only way to get the wifi and gpu drivers to install was to use a flavor of Ubuntu.\n\nI need a new hard drive so I thought should take the time to install Linux.\n\n\n## Extras for Ubuntu\n\n- install zsh\n- install oh-my-zsh\n- remap caps-lock to control\n- remap function key to Control\n- install anaconda (for data science and python)\n- install vscode\n- configure git/github\n- adjust to dark theme\n- change firefox to dark theme\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

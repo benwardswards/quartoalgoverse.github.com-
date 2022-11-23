@@ -1,0 +1,15 @@
+{
+  "hash": "3d7ecac431020ec67756b52a47cdf52c",
+  "result": {
+    "markdown": "---\ntitle: \"Jupyter Notebook Test\"\nauthor: Ben Wards\ndate: \"11-22-2022\"\nformat: html\nexecute: \n  enabled: true\njupyter: python3\n---\n\n# testing markdown\n\nHow does it look?\n\nDo equations render $f(x)$\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\n\narr=np.array([1,2,3,4])\n\nimport sys\n\nprint(sys.version_info)\n\nfrom rich import print\n\nprint(arr)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nsys.version_info(major=3, minor=10, micro=6, releaselevel='final', serial=0)\n```\n:::\n\n::: {.cell-output .cell-output-display}\n```{=html}\n<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\"><span style=\"font-weight: bold\">[</span><span style=\"color: #008080; text-decoration-color: #008080; font-weight: bold\">1</span> <span style=\"color: #008080; text-decoration-color: #008080; font-weight: bold\">2</span> <span style=\"color: #008080; text-decoration-color: #008080; font-weight: bold\">3</span> <span style=\"color: #008080; text-decoration-color: #008080; font-weight: bold\">4</span><span style=\"font-weight: bold\">]</span>\n</pre>\n```\n:::\n:::\n\n\n\n",
+    "supporting": [
+      "Untitled-1_files"
+    ],
+    "filters": [],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js\" integrity=\"sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==\" crossorigin=\"anonymous\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js\" integrity=\"sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==\" crossorigin=\"anonymous\"></script>\n<script type=\"application/javascript\">define('jquery', [],function() {return window.jQuery;})</script>\n"
+      ]
+    }
+  }
+}
