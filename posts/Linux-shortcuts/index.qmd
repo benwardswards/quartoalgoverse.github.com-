@@ -4,7 +4,6 @@ author: "Ben Wards"
 date: "2022-11-22"
 categories: [Linux, Vscode,  terminal]
 image: linux.jpeg
-jupyter: python3
 format: 
     html:
         toc: true
@@ -13,15 +12,17 @@ format:
 
 ## keyboard Short Cuts and Linux commands for Coding
 
-A summary of linux comands that I use for coding, git, and bloging.
+A summary of linux commands that I use for coding, git, and blogging.
 
 ## Keyboard Shortcuts for Terminal
 
 
-|  shortcut |description   |
+|  shortcut |description   | Caveats
 |---|---|
-| Ctrl + a  | will take you to the beginning of a line  |
+| Ctrl + a  | goto beginning of line  |
+| Fnc + ←| goto beginning of line|
 | Ctrl + e   | goto end of line  |
+| Fnc + →| goto end of line|
 | Ctrl + w  |  delete one word backwards |
 | Ctrl + k | remove cursor to beginning of line|
 | Ctrl + u | remove cursor to end of line|
@@ -30,20 +31,27 @@ A summary of linux comands that I use for coding, git, and bloging.
 | Ctrl + Shift + v| paste to terminal |
 | Ctrl + F| move one forward|
 
-## Default keyboard shortcuts for vscode on Linux
+## Keyboard shortcuts for Vscode on Linux
 
 | Shortcut |description   |
 |---    |---      |
 |Ctrl+C | copy |
 |Ctrl+v | paste |
 |Ctrl+x | cut line|
+|Ctrl+⬆ | move view up|
+|Ctrl+⬇ | move view down|
 |Alt+⬆  | move line up|
 |Alt+⬇  | move line down|
-|Ctrl+] | Indent line |
-|Ctrl+[ | Outdent line |
-|Alt+Z  | Toggle word wrap|
-|Ctrl+F | Find |
-|Ctrl+H | Replace |
+|Fnc+⬆  | move to top of page|
+|Fnc+⬇  | move to bottom of page|
+|Ctrl+] | indent line |
+|Ctrl+[ | out dent line |
+|Alt+Z  | toggle word wrap|
+|Ctrl+F | find |
+|Ctrl+H | replace |
+|Ctrl+Shift+P |  show command palette
+|Ctrl+Shift+A | toggle block command
+You can define custom shortcuts but learn the default ones first.
 
 ## SSH Keys and Passphrases with Github
 
@@ -62,7 +70,7 @@ eval "$(ssh-agent -s)"
 The command line authenticates with ssh so you have to set the remote with ssh not https. Go to your github page like you were going to find the clone address and choose ssh to down load the correct link.
 
 ```zsh
-git remote set-url origin git@github.com:benwardswards/algoverse.github.io.git
+git remote set-url origin git@github.com:benwardswards/quartoalgoverse.github.io.git
 ```
 
 Checking your credentials:
@@ -75,7 +83,7 @@ ssh -T git@github.com
 
 ## Quarto Websites, blogs and Documents
 
-```zsh
+```zsh;
 quarto preview <folder-blogname>
 ```
 ## 🚀 About Me
@@ -83,6 +91,48 @@ quarto preview <folder-blogname>
 Algorithms, machine learning, and learning from data.
 
 challenges did you face and how did you overcome them?
+
+## Git commands
+
+Initiating a git repository from a folder:
+
+```zsh
+git init
+```
+Checking which file differs from current working director and the head:
+```zsh
+git status
+```
+
+List of commits
+```zsh
+git log
+```
+```zsh
+git log --graph --oneline
+```
+
+List of all recent git commits including amends and reverts
+```zsh
+git reflog
+```
+```zsh
+git branch
+```
+
+```zsh
+git branch -D <branch_to_delete>
+```
+
+```zsh
+git  rebase
+```
+
+
+
+
+
+
 
 
 ## Tech Stack
