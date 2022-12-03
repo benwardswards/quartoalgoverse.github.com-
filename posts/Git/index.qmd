@@ -1,0 +1,79 @@
+---
+title: "Git commands and Configuration"
+author: "Ben Wards"
+date: "2022-01-5"
+categories: [Linux, Vscode,  Git]
+format: 
+    html:
+        toc: true
+        toc-depth: 2
+---
+
+
+## Git commands
+
+Initiating a git repository from a folder:
+
+```zsh
+git init
+```
+Checking which file differs from current working director and the head:
+```zsh
+git status
+```
+
+List of commits
+```zsh
+git log
+```
+List commits with oneline and in graph mode to see branchs,
+```zsh
+git log --graph --oneline
+```
+
+List of all recent git commits including amends and reverts
+```zsh
+git reflog
+```
+
+View all exists branches
+```zsh
+git branch
+```
+
+How to delete a branch
+```zsh
+git branch -D <branch_to_delete>
+```
+
+```zsh
+git  rebase
+```
+
+## SSH Keys and Passphrases with Github
+
+- Generate a private public key pair
+  - The public key in ~/.ssh is .pub file
+- Get that key to run with ssh
+- Upload the public key to github
+- Set the remote with ssh
+
+```zsh
+ssh-add ~/.ssh/id_ed25519
+ssh-keygen -t ed25519 -C "wardsbd@gmail.com"
+eval "$(ssh-agent -s)"
+```
+
+The command line authenticates with ssh so you have to set the remote with ssh not https. Go to your github page like you were going to find the clone address and choose ssh to down load the correct link.
+
+```zsh
+git remote set-url origin git@github.com:benwardswards/quartoalgoverse.github.io.git
+```
+
+Checking your credentials:
+
+```zsh
+ssh -T git@github.com
+```
+
+[Github docs for authentication](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
