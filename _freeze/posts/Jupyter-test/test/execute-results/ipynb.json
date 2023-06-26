@@ -1,0 +1,10 @@
+{
+  "hash": "2e6994775c2b0a9a1d4c6e71cf2173df",
+  "result": {
+    "markdown": "___\ntitle: Demo\nauthor: Ben Wards\ndate: 'May 22, 2023'\nformat:\n  html:\n    cod-fold: true\n___\n\n---\ntitle: Jupyter Notebook Test\nauthor: Ben Wards\ndate: 11-22-2022\nformat: ipynb\nexecute:\n  enabled: true\ntoc: true\ntoc-depth: 2\nimage: jupyter.png\n---\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nfor i in range(5):\n    print(i, i * i, i**3)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n0 0 0\n1 1 1\n2 4 8\n3 9 27\n4 16 64\n```\n:::\n:::\n\n\n::: {.cell execution_count=2}\n``` {.python .cell-code}\nimport sys\n\nprint(sys.version_info)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nsys.version_info(major=3, minor=11, micro=3, releaselevel='final', serial=0)\n```\n:::\n:::\n\n\n---\njupyter:\n  kernelspec:\n    display_name: Python 3 (ipykernel)\n    language: python\n    name: python3\n  language_info:\n    codemirror_mode:\n      name: ipython\n      version: 3\n    file_extension: .py\n    mimetype: text/x-python\n    name: python\n    nbconvert_exporter: python\n    pygments_lexer: ipython3\n    version: 3.11.3\n---\n",
+    "supporting": [
+      "test_files"
+    ],
+    "filters": []
+  }
+}

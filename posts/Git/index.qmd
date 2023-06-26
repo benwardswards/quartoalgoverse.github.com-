@@ -1,7 +1,7 @@
 ---
 title: "Git commands and Configuration"
 author: "Ben Wards"
-date: "2022-01-5"
+date: "2022-12-05"
 categories: [Linux, Vscode,  Git]
 format: 
     html:
@@ -17,16 +17,30 @@ Initiating a git repository from a folder:
 ```zsh
 git init
 ```
+
+### Adding and Removing Files From the Index
+
 Checking which file differs from current working director and the head:
 ```zsh
 git status
 ```
 
+```zsh
+git rm --cached
+```
+
+Find the list of files in the index
+```zsh
+git ls-files
+```
+
+### Checking History of Commits
+
 List of commits
 ```zsh
 git log
 ```
-List commits with oneline and in graph mode to see branchs,
+List commits with oneline and in graph mode to see branches,
 ```zsh
 git log --graph --oneline
 ```
@@ -35,6 +49,7 @@ List of all recent git commits including amends and reverts
 ```zsh
 git reflog
 ```
+### Managing Branches
 
 View all exists branches
 ```zsh

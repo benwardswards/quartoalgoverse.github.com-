@@ -1,5 +1,5 @@
 ---
-title: "Linux on Macbook Pro 2012"
+title: "Linux on MacBook Pro 2012"
 author: "Ben Wards"
 date: "2022-11-20"
 categories: [Linux, mac, ubuntu]
@@ -9,7 +9,7 @@ toc:  true
 toc-depth: 2
 ---
 
-## Linux on a 2012 Macbook Pro
+## Linux on a 2012 MacBook Pro
 
 I have two former windows machine that are running ubuntu just great.  But the mac runs a little hot and the battery time is reduced.
 
@@ -21,11 +21,11 @@ Computer: 2012 mid 15inch MacBook pro
 - hard to update
 - no support from mac
 - hard to build anything from source.
-- love apt, apt-get, installer, more familar with command line tools on linux.
+- love apt, apt-get, installer, more familiar with command line tools on linux.
 
 ## Installation
 
-I tried to install many different flavors, making probably 10 different bootable usb keys.  The only way to get the wifi and gpu drivers to install was to use a flavor of Ubuntu.
+I tried to install many different flavors, making probably 10 different bootable USB stick.  The only way to get the wifi and gpu drivers to install was to use a flavor of Ubuntu.
 
 I need a new hard drive so I thought should take the time to install Linux.
 
@@ -34,6 +34,7 @@ I need a new hard drive so I thought should take the time to install Linux.
 
 - install zsh
 - install oh-my-zsh
+- install oh my posh
 - remap caps-lock to control
 - remap function key to Control
 - install anaconda (for data science and python)

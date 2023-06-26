@@ -1,0 +1,11 @@
+{
+  "hash": "60d67e9bc41948df5b5b387b50bbd219",
+  "result": {
+    "markdown": "---\ntitle: \"Jupyter Test\"\nauthor: \"Ben Wards\"\ndate: \"2023-06-06\"\n---\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nfor i in range(5):\n    print(i, i * i, i**3)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n0 0 0\n1 1 1\n2 4 8\n3 9 27\n4 16 64\n```\n:::\n:::\n\n\n::: {.cell execution_count=2}\n``` {.python .cell-code}\nimport sys\n\nprint(sys.version_info)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nsys.version_info(major=3, minor=11, micro=3, releaselevel='final', serial=0)\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "test_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

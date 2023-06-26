@@ -1,9 +1,9 @@
 ---
-title: "Keyboard Shortcuts and Linux Commands for Git and Coding"
+title: "Keyboard Shortcuts for the Terminal and vscode on Linux"
 author: "Ben Wards"
 date: "2022-11-22"
 categories: [Linux, Vscode,  terminal]
-image: linux.jpeg
+image:  linux.jpeg
 format: 
     html:
         toc: true
@@ -12,7 +12,7 @@ format:
 
 # keyboard Short Cuts and Linux commands for Coding
 
-A summary of linux commands that I use for coding in python
+A summary of linux commands that I use for coding in python.  Try to learn one command every time you program. 
 
 ## Keyboard Shortcuts for Terminal
 
