@@ -2,8 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/Timeseries-with-Prophet/predict_AIL.html",
+      "/posts/Jupyter-test/index.html",
+      "/posts/Git/index.html",
+      "/posts/Linux-shortcuts/index.html",
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/Linux-on-a-Macbook-pro-2012/index.html"
     ]
   }
 ]

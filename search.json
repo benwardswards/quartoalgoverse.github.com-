@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About Ben Wards",
     "section": "",
-    "text": "Data Science, Algorithms, linux, python, and web development\nI completed a masters at the university of Alberta and undergrad in math at the University of Calgary. I then partially completed a Phd (ABD) in Geophysics. Even though I’ll never complete my phd I learn’t a lot, writing, presentations, matlab, signal processing, and simulations of acoustic and anisotropic wave equations. I’m now on the road to learning python and data science.r"
+    "text": "Data Science, Algorithms, linux, python, and web development"
   },
   {
     "objectID": "about.html#education",
@@ -14,24 +14,157 @@
     "text": "Education\nUniversity of Alberta, Edmonton, AB MSc in Mathematics September 2006\nUniversity of Calgary, Calgary, AB BSc Honours in Applied and Pure Mathematics"
   },
   {
+    "objectID": "about.html#how-i-got-here",
+    "href": "about.html#how-i-got-here",
+    "title": "About Ben Wards",
+    "section": "How I Got Here",
+    "text": "How I Got Here\nI completed a masters at the university of Alberta and undergrad in math at the University of Calgary. I then partially completed a Phd (ABD) in Geophysics. Even though I’ll never complete my phd I learn’t a lot, writing, presentations, matlab, signal processing, and simulations of acoustic and anisotropic wave equations. I’m now on the road to learning python and data science."
+  },
+  {
+    "objectID": "about.html#inspiration",
+    "href": "about.html#inspiration",
+    "title": "About Ben Wards",
+    "section": "Inspiration",
+    "text": "Inspiration\nfast.ai\nGitHub Pages\ncalmcode.io\nAdvent of Code\nMarkdown"
+  },
+  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
-    "text": "My first post with code.\n\nfor i in range(4):\n    print(i, i**2, i**3)\n\n0 0 0\n1 1 1\n2 4 8\n3 9 27\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "for i in range(4):\n    print(i, i**2, i**3)\n\n0 0 0\n1 1 1\n2 4 8\n3 9 27"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/post-with-code/index.html#plot-something-with-python",
+    "href": "posts/post-with-code/index.html#plot-something-with-python",
+    "title": "Post With Code",
+    "section": "Plot Something with python",
+    "text": "Plot Something with python\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={\"projection\": \"polar\"})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#basic-setup",
+    "href": "posts/post-with-code/index.html#basic-setup",
+    "title": "Post With Code",
+    "section": "Basic setup",
+    "text": "Basic setup"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#basic-formatting",
+    "href": "posts/post-with-code/index.html#basic-formatting",
+    "title": "Post With Code",
+    "section": "Basic formatting",
+    "text": "Basic formatting\nYou can use italics, bold, code font text, and create links. Here’s a footnote 1. Here’s a horizontal rule:"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#lists",
+    "href": "posts/post-with-code/index.html#lists",
+    "title": "Post With Code",
+    "section": "Lists",
+    "text": "Lists\nHere’s a list:\n\nitem 1\nitem 2\n\nAnd a numbered list:\n\nitem 1\nitem 2"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#boxes-and-stuff",
+    "href": "posts/post-with-code/index.html#boxes-and-stuff",
+    "title": "Post With Code",
+    "section": "Boxes and stuff",
+    "text": "Boxes and stuff\n\nThis is a quotation\n\n{% include alert.html text=“You can include alert boxes” %}\n…and…\n{% include info.html text=“You can include info boxes” %}"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#images",
+    "href": "posts/post-with-code/index.html#images",
+    "title": "Post With Code",
+    "section": "Images",
+    "text": "Images"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#code",
+    "href": "posts/post-with-code/index.html#code",
+    "title": "Post With Code",
+    "section": "Code",
+    "text": "Code\nGeneral preformatted text:\n# Do a thing\ndo_thing()\nPython code and output:\n# Prints '2'\nprint(1+1)\n2"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#tables",
+    "href": "posts/post-with-code/index.html#tables",
+    "title": "Post With Code",
+    "section": "Tables",
+    "text": "Tables\n\n\n\nColumn 1\nColumn 2\n\n\n\n\nA thing\nAnother thing"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#footnotes",
+    "href": "posts/post-with-code/index.html#footnotes",
+    "title": "Post With Code",
+    "section": "Footnotes",
+    "text": "Footnotes"
+  },
+  {
+    "objectID": "posts/Linux-shortcuts/index.html",
+    "href": "posts/Linux-shortcuts/index.html",
+    "title": "Keyboard Shortcuts for the Terminal and vscode on Linux",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome! Testing lots of features.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "A summary of linux commands that I use for coding in python. Try to learn one command every time you program.\n\n\nThere are many over lapping keyboard shortcuts between the terminal and vscode. I recommend learning the over lapping ones.\n\n\n\nshortcut\ndescription\n\n\n\n\nCtrl + a\ngoto beginning of line\n\n\nFnc + ←\ngoto beginning of line\n\n\nCtrl + e\ngoto end of line\n\n\nFnc + →\ngoto end of line\n\n\nCtrl + w\ndelete one word backwards\n\n\nCtrl + k\nremove cursor to beginning of line\n\n\nCtrl + u\nremove cursor to end of line\n\n\nCtrl + y\nundone\n\n\nCtrl + Shift + c\ncopy to terminal\n\n\nCtrl + Shift + v\npaste to terminal\n\n\nCtrl + F\nmove one forward\n\n\n\n\n\n\n\n\n\n\n\nShortcut\ndescription\n\n\n\n\nCtrl+C\ncopy\n\n\nCtrl+v\npaste\n\n\nCtrl+x\ncut line\n\n\nCtrl+⬆\nmove view up\n\n\nCtrl+⬇\nmove view down\n\n\nAlt+⬆\nmove line up\n\n\nAlt+⬇\nmove line down\n\n\nFnc+⬆\nmove to top of page\n\n\nFnc+⬇\nmove to bottom of page\n\n\nCtrl+]\nindent line\n\n\nCtrl+[\nout dent line\n\n\nAlt+Z\ntoggle word wrap\n\n\nCtrl+F\nfind\n\n\nCtrl+H\nreplace\n\n\n\nYou can define custom shortcuts but learn the default ones first. When you go to different computer you will have to reprogram the shortcuts.\n\n\n\n\n\n\nShortcut\ndescription\n\n\n\n\nCtrl+P\nquick open a file\n\n\nCtrl+Shift+A\ntoggle block command\n\n\nCtrl+Shift+P\nshow command palette\n\n\nFnc+F11\nfull screen\n\n\nCtrl+d\nselect word\n\n\nShift+Ctrl+→/←\nselect words left or right\n\n\nShift+Alt+→/←\nsmart select\n\n\n\nPDF of keyboard shortcuts"
+  },
+  {
+    "objectID": "posts/Timeseries-with-Prophet/predict_AIL.html",
+    "href": "posts/Timeseries-with-Prophet/predict_AIL.html",
+    "title": "Timeseries with Prophet",
+    "section": "",
+    "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n\ndf = pd.read_csv(\"Hourly_Metered_Volumes_and_Pool_Price_and_AIL.csv\")\ndf[\"Date\"] = pd.to_datetime(df[\"Date_Begin_Local\"])\ndf.set_index(\"Date\", inplace=True)\n\n\n# print(df.columns)\n\n# df_daily_pool_avg = df.set_index(\"Date\").resample('D').mean()\n\n\nAIL_hourly_2021 = df[df.index.year == 2021]\nAIL_hourly_2022 = df[df.index.year == 2022]\n\n\nplt.plot(\n    AIL_hourly_2021.index,\n    AIL_hourly_2021.ACTUAL_AIL,\n    label=\"2021\",\n)\nplt.legend()\nplt.show()\nplt.plot(\n    AIL_hourly_2022.index,\n    AIL_hourly_2022.ACTUAL_AIL,\n    label=\"2022\",\n)\nplt.legend()\n\n\n\n\n<matplotlib.legend.Legend at 0x7ff238329b10>\n\n\n\n\n\n\nfrom prophet import Prophet\nimport logging\nimport warnings\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.metrics import mean_squared_error\n\ntrain_data, test_data = train_test_split(AIL_hourly_2022, test_size=0.2, shuffle=False)\n\nlogging.getLogger(\"prophet\").setLevel(logging.ERROR)\nwarnings.filterwarnings(\"ignore\")\n\nm = Prophet()\n\ndata = train_data\ndata[\"ds\"] = train_data.index\ndata[\"y\"] = train_data.ACTUAL_AIL\n\nm.fit(data)\n\nfuture_dates = m.make_future_dataframe(periods=1)\npredictions = m.predict(future_dates)\npredictions\nplt.plot(future_dates, predictions.yhat)\nplt.show()\nm.plot_components(predictions)\n\n18:23:24 - cmdstanpy - INFO - Chain [1] start processing\n18:23:27 - cmdstanpy - INFO - Chain [1] done processing"
+  },
+  {
+    "objectID": "posts/Jupyter-test/index.html",
+    "href": "posts/Jupyter-test/index.html",
+    "title": "Jupyter Test",
+    "section": "",
+    "text": "for i in range(5):\n    print(i, i * i, i**3)\n\n0 0 0\n1 1 1\n2 4 8\n3 9 27\n4 16 64\n\n\n\nimport sys\n\nprint(sys.version_info)\n\nsys.version_info(major=3, minor=11, micro=3, releaselevel='final', serial=0)"
+  },
+  {
+    "objectID": "posts/Linux-on-a-Macbook-pro-2012/index.html",
+    "href": "posts/Linux-on-a-Macbook-pro-2012/index.html",
+    "title": "Linux on Macbook Pro 2012",
+    "section": "",
+    "text": "I have two former windows machine that are running ubuntu just great. But the mac runs a little hot and the battery time is reduced.\nComputer: 2012 mid 15inch MacBook pro"
+  },
+  {
+    "objectID": "posts/Linux-on-a-Macbook-pro-2012/index.html#what-was-wrong-with-mac-os",
+    "href": "posts/Linux-on-a-Macbook-pro-2012/index.html#what-was-wrong-with-mac-os",
+    "title": "Linux on Macbook Pro 2012",
+    "section": "What was wrong with MAC OS?",
+    "text": "What was wrong with MAC OS?\n\nhomebrew broke\nhard to update\nno support from mac\nhard to build anything from source.\nlove apt, apt-get, installer, more familar with command line tools on linux."
+  },
+  {
+    "objectID": "posts/Linux-on-a-Macbook-pro-2012/index.html#installation",
+    "href": "posts/Linux-on-a-Macbook-pro-2012/index.html#installation",
+    "title": "Linux on Macbook Pro 2012",
+    "section": "Installation",
+    "text": "Installation\nI tried to install many different flavors, making probably 10 different bootable usb keys. The only way to get the wifi and gpu drivers to install was to use a flavor of Ubuntu.\nI need a new hard drive so I thought should take the time to install Linux."
+  },
+  {
+    "objectID": "posts/Linux-on-a-Macbook-pro-2012/index.html#extras-for-ubuntu",
+    "href": "posts/Linux-on-a-Macbook-pro-2012/index.html#extras-for-ubuntu",
+    "title": "Linux on Macbook Pro 2012",
+    "section": "Extras for Ubuntu",
+    "text": "Extras for Ubuntu\n\ninstall zsh\ninstall oh-my-zsh\nremap caps-lock to control\nremap function key to Control\ninstall anaconda (for data science and python)\ninstall vscode\nconfigure git/github\nadjust to dark theme\nchange firefox to dark theme"
+  },
+  {
+    "objectID": "posts/Git/index.html",
+    "href": "posts/Git/index.html",
+    "title": "Git commands and Configuration",
+    "section": "",
+    "text": "Initiating a git repository from a folder:\ngit init\n\n\nChecking which file differs from current working director and the head:\ngit status\ngit rm --cached\nFind the list of files in the index\ngit ls-files\n\n\n\nList of commits\ngit log\nList commits with oneline and in graph mode to see branches,\ngit log --graph --oneline\nList of all recent git commits including amends and reverts\ngit reflog\n\n\n\nView all exists branches\ngit branch\nHow to delete a branch\ngit branch -D <branch_to_delete>\ngit  rebase"
+  },
+  {
+    "objectID": "posts/Git/index.html#ssh-keys-and-passphrases-with-github",
+    "href": "posts/Git/index.html#ssh-keys-and-passphrases-with-github",
+    "title": "Git commands and Configuration",
+    "section": "SSH Keys and Passphrases with Github",
+    "text": "SSH Keys and Passphrases with Github\n\nGenerate a private public key pair\n\nThe public key in ~/.ssh is .pub file\n\nGet that key to run with ssh\nUpload the public key to github\nSet the remote with ssh\n\nssh-add ~/.ssh/id_ed25519\nssh-keygen -t ed25519 -C \"wardsbd@gmail.com\"\neval \"$(ssh-agent -s)\"\nThe command line authenticates with ssh so you have to set the remote with ssh not https. Go to your github page like you were going to find the clone address and choose ssh to down load the correct link.\ngit remote set-url origin git@github.com:benwardswards/quartoalgoverse.github.io.git\nChecking your credentials:\nssh -T git@github.com\nGithub docs for authentication"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Algoverse Ben Wards",
+    "title": "Blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 21, 2022\n\n\nBen Wards\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nBen Wards\n\n\n\n\n\n\nNo matching items"
+    "text": "Timeseries with Prophet\n\n\n\n\n\n\n\n\n\n\n\n\nJun 26, 2023\n\n\nBen Wards\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJupyter Test\n\n\n\n\n\n\n\n\n\n\n\n\nJun 6, 2023\n\n\nBen Wards\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit commands and Configuration\n\n\n\n\n\n\n\nLinux\n\n\nVscode\n\n\nGit\n\n\n\n\n\n\n\n\n\n\n\nDec 5, 2022\n\n\nBen Wards\n\n\n\n\n\n\n  \n\n\n\n\nKeyboard Shortcuts for the Terminal and vscode on Linux\n\n\n\n\n\n\n\nLinux\n\n\nVscode\n\n\nterminal\n\n\n\n\n\n\n\n\n\n\n\nNov 22, 2022\n\n\nBen Wards\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 21, 2022\n\n\nBen Wards\n\n\n\n\n\n\n  \n\n\n\n\nLinux on MacBook Pro 2012\n\n\n\n\n\n\n\nLinux\n\n\nmac\n\n\nubuntu\n\n\n\n\n\n\n\n\n\n\n\nNov 20, 2022\n\n\nBen Wards\n\n\n\n\n\n\nNo matching items"
   }
 ]
